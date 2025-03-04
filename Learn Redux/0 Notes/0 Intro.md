@@ -7,6 +7,10 @@
         - It eliminates data redundancy, ensures everyone in an organization accesses the most accurate and up-to-date information from a single location
     - `Time-Travel Debugging:` Predictability allows tools to track how the state evolves step-by-step. You can replay actions to see how they affect the state, making debugging easier.
 
+<br>
+<img src="../Redux Architecture.png" />
+<br>
+
 # Why we used this:
 - `Watch`: https://www.youtube.com/shorts/4tsQtBxlxEc
 - like two component (parent-child) don't need to rely on each other. we create one centeral (abstract store) that then both parent-child component rely on that abstract thing. 
